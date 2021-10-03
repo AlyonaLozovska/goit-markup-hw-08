@@ -1,0 +1,73 @@
+.customers-title {
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 50px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    }
+    
+    .customers {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .customers__item {
+    width: 170px;
+    height: 92px;
+    }
+    
+    
+    
+    .logo-one {
+    width: 41px;
+    height: 46.7px;
+    }
+    
+    .logo-two {
+    width: 38.47px;
+    height: 34.05px;
+    }
+    
+    .logo-three {
+    width: 43.46px;
+    height: 41.18px;
+    }
+    
+    .logo-four {
+    width: 84.44px;
+    height: 40.62px;
+    }
+    
+    .logo-five {
+    width: 62.54px;
+    height: 45.43px;
+    }
+    
+    .logo-six {
+    width: 93.49px;
+    height: 43.93px;
+    }
+    
+    
+    .customers-item-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    height: 100%;
+    transition: background-color 500ms, fill 500ms linear;
+    }
+    
+    
+    .customers-item-icon:hover,
+    .customers-item-icon:focus {
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
+    }
+    

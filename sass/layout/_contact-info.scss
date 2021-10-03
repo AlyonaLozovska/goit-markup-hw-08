@@ -1,0 +1,121 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+    
+    .contact {
+    display: flex;
+    align-items: baseline;
+    }
+    
+    .footer__adress {
+    flex-grow: 1;
+    }
+    
+    .container-contact {
+    background: var(--background-color);
+    padding-top: 60px;
+    }
+    
+    .logo-footer {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.20;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    }
+    
+    .studio-logo {
+    color: var(--title-text-color);
+    }
+    
+    .footer__list {
+    margin-top: 20px;
+    }
+    
+    
+    
+    .contact-adress-link {
+    font-family: var(--main-font);
+    color: var(--title-text-color);
+    }
+    
+    
+    
+    .contact-link {
+    font-family: var(--main-font);
+    color: var(--contact-color);
+    }
+    
+    .footer-contact {
+    margin-top: 9px;
+    }
+    
+    .footer-list-adress {
+    display: block;
+    box-sizing: inherit;
+    margin-left: 70px;
+    }
+    
+    .footer-social-list {
+    display: inline-flex;
+    }
+    
+    .footer-social-list-item:not(:last-child) {
+    margin-right: 10px;
+    }
+    
+    
+    .footer-social-contact-link {
+    font-family: var(--main-font);
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    }
+    
+    
+    
+    .footer-social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: var(--title-text-color);
+    transition: background-color 500ms, fill 500ms linear;
+
+        &:hover,
+        &:focus {
+            fill: var(--title-text-color);
+            background-color: var(--accent-color);
+        }
+    }
+    
+    
+    
+    
+    .footer-social-form {
+    margin-left: 93px;
+    }
+    
+    .footer-social-form {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    }
+    
+    
+    .footer-social-form-head {
+    margin-bottom: 20px;
+    }

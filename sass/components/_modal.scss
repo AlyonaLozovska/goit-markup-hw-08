@@ -1,0 +1,41 @@
+.modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 528px;
+    height: 581px;
+    background: var(--title-text-color);
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    }
+    
+    
+    
+    .close__btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    }
+    
+    
+    .modal-button-icon {
+    align-items: center;
+    fill: #000000;
+    width: 11px;
+    height: 11px;
+
+        &:hover {
+            fill: var(--accent-color)   
+        }
+    }
+        
+        
+    
+            
