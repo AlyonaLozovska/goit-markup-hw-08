@@ -37,6 +37,11 @@
                     </li>
                 </ul>
             </nav>
+            <button class="burger-btn">
+                <svg class="burger-btn_icon">
+                    <use href=""></use>
+                </svg>
+            </button>
                 <ul class="menu__list list">
                     <li class="menu__item">
                         <a class="mail__link link current" href="mailto:info@devstudio.com">
@@ -152,8 +157,26 @@
                 <h2 class="box-about-title about-title">Наша команда</h2>
                 <ul class="about__list list">
                     <li class="about__list-item">
-                        <img src="./image/foto_1.jpg" alt="фото И.Демьяненко" width="270" height="260">
+                        <picture>
+                            <source media="min-width: 1200px" 
+                                srcset="./image/foto_1.vebp 1x, ./image/foto_1@2x.vebp 2x"
+                                type="image/vebp">
+                            <source media="min-width: 1200px" 
+                                srcset="./image/foto_1.jpg 1x, ./image/foto_1@2x.jpg 2x">
+                            <source media="min-width: 768px" 
+                                srcset="./image/img-planshet/foto_1p@1x.vebp 1x, ./image/img-planshet/foto_1p@2x.vebp 2x"
+                                type="image/vebp">
+                            <source media="min-width: 768px" 
+                                srcset="./image/img-planshet/foto_1p@1x.jpg 1x, ./image/img-planshet/foto_1p@2x.jpg 2x">
+                            <source media="min-width: 480px" 
+                                srcset="./image/img-planshet/foto_1m@1x.vebp 1x, ./image/img-planshet/foto_1m@2x.vebp 2x"
+                                type="image/vebp">
+                            <source media="min-width: 480px" 
+                                srcset="./image/img-planshet/foto_1m@1x.jpg 1x, ./image/img-planshet/foto_1m@2x.jpg 2x">
+                        <img src="./image/foto_1.jpg" alt="фото И.Демьяненко">
+                        </picture>
                     <div class="about-description-item-staff">
+                        
                         <h3 class="about-description">
                             Игорь Демьяненко
                         </h3>
@@ -193,7 +216,24 @@
                     </div>
                     </li>
                     <li class="about__list-item">
-                        <img src="./image/foto_2.jpg" alt="фото О.Репиной" width="270" height="260">
+                        <picture>
+                            <source media="min-width: 1200px" 
+                                srcset="./image/foto_2.vebp 1x, ./image/foto_2@2x.vebp 2x"
+                                type="image/vebp">
+                            <source media="min-width: 1200px" 
+                                srcset="./image/foto_2.jpg 1x, ./image/foto_2@2x.jpg 2x">
+                            <source media="min-width: 768px" 
+                                srcset="./image/img-planshet/foto_2p@1x.vebp 1x, ./image/img-planshet/foto_2p@2x.vebp 2x"
+                                type="image/vebp">
+                            <source media="min-width: 768px" 
+                                srcset="./image/img-planshet/foto_2p@1x.jpg 1x, ./image/img-planshet/foto_2p@2x.jpg 2x">  
+                            <source media="min-width: 480px" 
+                                srcset="./image/img-planshet/foto_2m@1x.vebp 1x, ./image/img-planshet/foto_2m@2x.vebp 2x"
+                                type="image/vebp">
+                            <source media="min-width: 480px" 
+                                srcset="./image/img-planshet/foto_2m@1x.jpg 1x, ./image/img-planshet/foto_2m@2x.jpg 2x">
+                        <img src="./image/foto_2.jpg" alt="фото О.Репиной">
+                        </picture>
                     <div class="about-description-item-staff">   
                         <h3 class="about-description">
                             Ольга Репина
@@ -234,7 +274,24 @@
                     </div>
                     </li>
                     <li class="about__list-item">
-                            <img src="./image/foto_3.jpg" alt="фото Н.Тарасова" width="270" height="260">
+                        <picture>
+                            <source media="min-width: 1200px" 
+                                srcset="./image/foto_3.vebp 1x, ./image/foto_3@2x.vebp 2x">
+                            <source media="min-width: 1200px" 
+                                srcset="./image/foto_3.jpg 1x, ./image/foto_3@2x.jpg 2x"
+                                type="image/vebp">
+                            <source media="min-width: 768px" 
+                                srcset="./image/img-planshet/foto_3p@1x.vebp 1x, ./image/img-planshet/foto_3p@2x.vebp 2x"
+                                type="image/vebp">
+                            <source media="min-width: 768px" 
+                                srcset="./image/img-planshet/foto_3p@1x.jpg 1x, ./image/img-planshet/foto_3p@2x.jpg 2x"> 
+                            <source media="min-width: 480px" 
+                                srcset="./image/img-planshet/foto_3m@1x.vebp 1x, ./image/img-planshet/foto_3m@2x.vebp 2x"
+                                type="image/vebp">
+                            <source media="min-width: 480px" 
+                                srcset="./image/img-planshet/foto_3m@1x.jpg 1x, ./image/img-planshet/foto_3m@2x.jpg 2x">
+                            <img src="./image/foto_3.jpg" alt="фото Н.Тарасова">
+                        </picture>
                     <div class="about-description-item-staff">
                         <h3 class="about-description">
                             Николай Тарасов
@@ -275,7 +332,24 @@
                     </div>
                     </li>
                     <li class="about__list-item">
-                        <img src="./image/foto_4.jpg" alt="фото М.Ермакова" width="270" height="260">
+                        <picture>
+                            <source media="min-width: 1200px" 
+                                srcset="./image/foto_4.vebp 1x, ./image/foto_4@2x.vebp 2x"
+                                type="image/vebp">
+                            <source media="min-width: 1200px" 
+                                srcset="./image/foto_4.jpg 1x, ./image/foto_4@2x.jpg 2x">
+                            <source media="min-width: 768px" 
+                                srcset="./image/img-planshet/foto_4p@1x.vebp 1x, ./image/img-planshet/foto_4p@2x.vebp 2x"
+                                type="image/vebp">
+                            <source media="min-width: 768px" 
+                                srcset="./image/img-planshet/foto_4p@1x.jpg 1x, ./image/img-planshet/foto_4p@2x.jpg 2x"> 
+                            <source media="min-width: 480px" 
+                                srcset="./image/img-planshet/foto_4m@1x.vebp 1x, ./image/img-planshet/foto_4m@2x.vebp 2x"
+                                type="image/vebp">
+                            <source media="min-width: 480px" 
+                                srcset="./image/img-planshet/foto_4m@1x.jpg 1x, ./image/img-planshet/foto_4m@2x.jpg 2x">
+                        <img src="./image/foto_4.jpg" alt="фото М.Ермакова">
+                        </picture>
                     <div class="about-description-item-staff">
                         <h3 class="about-description">
                             Михаил Ермаков

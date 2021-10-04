@@ -3,10 +3,32 @@
     padding-bottom: 60px;
     }
     
+
+// 480+
+@media screen and (min-width: 480px) {
+    .contact {
+    align-items: baseline;
+    margin-top: 60px;
+    }
+}
+
+
+// // 760+
+// @media screen and (min-width: 768px) {
+//     .contact {
+
+//     }
+// }
+
+
+// 1200+
+@media screen and (min-width: 1200px) {
     .contact {
     display: flex;
-    align-items: baseline;
+    margin-top: 0;
     }
+}
+
     
     .footer__adress {
     flex-grow: 1;
@@ -116,6 +138,9 @@
     }
     
     
+
     .footer-social-form-head {
     margin-bottom: 20px;
     }
+
+
