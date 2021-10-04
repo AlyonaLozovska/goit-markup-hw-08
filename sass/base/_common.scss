@@ -23,9 +23,11 @@ img {
 }
 
 .list {
-    list-style: none;
-    padding-left: 0;
+    display: flex;
+    // list-style: none;
+    // padding-left: 0;
     margin: 0;
+    margin-left: auto;
 }
 
 .link {
