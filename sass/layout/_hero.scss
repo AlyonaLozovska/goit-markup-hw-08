@@ -17,12 +17,27 @@
     max-width: 480px;
     margin: auto;
     }
+    
+    .hero {
+        background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+    ),
+    url(../image/img-mobil/hero-imgm@2x.jpg);
+    }
 }    
 
 // 760+
 @media screen and (min-width: 768px) {
     .container-section {
         max-width: 768px;
+    }
+        .hero {
+            background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+    ),
+    url(../image/hero-img.jpg);
         }
     }
 
